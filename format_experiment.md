@@ -2,7 +2,7 @@
 > Blockquote
 * List
 * List
-* List
+* List ![Image](http://url/a.png)
 ---
 ```
 # code block
