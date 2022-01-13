@@ -11,6 +11,6 @@ print 'hi~'
 ## *more code*
 `Inline code` with backticks
 
-link for main page: [Link](https://aaroncc914.github.io/cse15l-lab-reports/index.html)
+link for main page: [Link](https://aaroncc914.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 Here's a change made from local desktop!
