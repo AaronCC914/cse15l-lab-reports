@@ -2,7 +2,7 @@
 
 # Welcom to The Main Page!
 
-Author: **Jialin Chen** —— *jic053@ucsd.edu*
+> Author: **Jialin Chen** —— *jic053@ucsd.edu*
 
 ## Lab Reports:
 
