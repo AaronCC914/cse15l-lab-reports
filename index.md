@@ -1,6 +1,9 @@
 # Welcom to The Main Page!
 
-*Jialin Chen*   ![Image](selfie.jpg)
+*Jialin Chen*   
+<img style="float: right;" src="selfie.jpg" alt = "selfie" width = "100"/>
+
+
 
 *jic053@ucsd.edu*
 
