@@ -1,7 +1,8 @@
+<img style="float: right;" src="selfie.jpg" alt = "selfie" width = "100"/>
+
 # Welcom to The Main Page!
 
 *Jialin Chen*   
-<img style="float: right;" src="selfie.jpg" alt = "selfie" width = "100"/>
 
 
 
@@ -13,4 +14,4 @@
 
 ## Others:
 
-[type face experiment page](https://aaroncc914.github.io/cse15l-lab-reports/format_experiment.html)
+[type face experiment page](format_experiment.md)
