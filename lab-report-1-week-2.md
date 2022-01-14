@@ -19,7 +19,7 @@
 
         * where *** should be your own course-specific account
 
-    ![ssh_Login](ssh_login.png)
+    ![ssh_login](ssh_login.png)
 
     * then fill in your password to log in
 
