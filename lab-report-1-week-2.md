@@ -63,9 +63,17 @@
 
 6. ***Optimizing Remote Running***
 
-    * write commands at the end of `ssh` command to directly running it on the remote server
+    * write commands at the end of `ssh` command to directly running it on the remote server, then exit
 
     ![ssh_convient](ssh_convient.png)
+
+    * after moving the file onto the remote server you could run it on the server after logging in
+
+    ![scp_ExampleLocal](scp_ExampleLocal.png)
+
+    *  you can use semicolons to run multiple commands on the same line
+
+    ![scp_ExampleServer](scp_ExampleServer.png)
 
 *Source: [ucsd CSE 15L wi22](https://ucsd-cse15l-w22.github.io/week/week1/)*
 
