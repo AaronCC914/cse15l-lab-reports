@@ -12,8 +12,7 @@
 
 * ![test1_fail](test1_fail.png)
 
-*
-    bug: `currentIndex` is the same as the index of the last close parenthesis from the file. 
+*   bug: `currentIndex` is the same as the index of the last close parenthesis from the file. 
     While loop ends when index equals file length.
 
     symptom: while loop won't stop running causing `OutOfMemeoryError`
@@ -29,12 +28,11 @@
 
 * ![test2_fail](test2_fail.png)
 
-* 
-    bug:
+*   bug: the code add anything within open and close parenthesis to the `toReturn` String
 
-    symptom: 
+    symptom: `toReturn` would contains an empty element
 
-    failure-inducing input: 
+    failure-inducing input: emtpy pair of parenthesis
 
 ## *Bug #3*
 
@@ -44,12 +42,11 @@
 
 * ![test2_fail](test3_fail.png)
 
-* 
-    bug:
+*   bug: the code directly finds the first bracket without checking if there is a exclamation mark before it
 
-    symptom: 
+    symptom: image file is also included in `toReturn` String
 
-    failure-inducing input: 
+    failure-inducing input: a line importing a image in the file
 
 *Source: [ucsd CSE 15L wi22](https://ucsd-cse15l-w22.github.io/week/week4/#lab-tasks)*
 
