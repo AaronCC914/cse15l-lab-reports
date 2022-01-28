@@ -13,11 +13,12 @@
 * ![test1_fail](test1_fail.png)
 
 *
-    bug:
+    bug: `currentIndex` is the same as the index of the last close parenthesis from the file. 
+    While loop ends when index equals file length.
 
-    symptom: 
+    symptom: while loop won't stop running causing `OutOfMemeoryError`
 
-    failure-inducing input: 
+    failure-inducing input: extra character after the last close parenthesis
 
 
 ## *Bug #2*
