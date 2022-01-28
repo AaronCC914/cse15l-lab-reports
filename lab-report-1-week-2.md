@@ -1,6 +1,6 @@
 [Back to Main Page](index.md)
 
-# Lab Report #1 &nbsp; tutorial for account log in
+# Lab Report #1 &nbsp; Account Log In
 
 > by Jialin Chen 01/13 2022
 
