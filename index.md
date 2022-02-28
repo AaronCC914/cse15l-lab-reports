@@ -12,6 +12,8 @@
 
 * [Lab Report 3 ____ 02/11 2022](lab-report-3-week-6.md)
 
+* [Lab Report 4 ____ 02/25 2022](lab-report-4-week-8.md)
+
 ## Others:
 
 [type face experiment page](format_experiment.md)
