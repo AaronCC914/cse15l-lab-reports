@@ -14,7 +14,8 @@
 
 * ![lab3_ssh](lab3_ssh.png)
 
-* use the created *User Name* to log into the server
+* use the created *User Name*
+ to log into the server
 
 ## 3 &nbsp; `scp` command
 
