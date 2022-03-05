@@ -14,9 +14,7 @@
 
 * ![lab4_test1](lab4_test1.png)
 
-* the test passed for my implementation and for group implementation
-
-* 
+* the test passed both for my implementation and group implementation
 
 ## Snippet 2
 
