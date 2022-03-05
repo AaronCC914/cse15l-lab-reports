@@ -26,7 +26,7 @@
 
 * ![lab4_testGroup2](lab4_testGroup2.png)
 
-* 
+* using a stack to store each open parathesises and bracket. pop them after discovering a corresponding symbol and check for the content with the parathesises. this code change should be greater than 10 lines.
 
 ## Snippet 3
 
@@ -38,7 +38,7 @@
 
 * ![lab4_testGroup3](lab4_testGroup3.png)
 
-* 
+* there's no error with reading text in newlines. Moreover, a short code to enclose text searching after reaching the next open bracket index should fix the error for no closing paraenthesis.
 
 *Source: [ucsd CSE 15L wi22](https://ucsd-cse15l-w22.github.io/week/week8/#week-8-lab-report)*
 
