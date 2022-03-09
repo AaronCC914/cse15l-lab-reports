@@ -14,7 +14,11 @@
 
 * ![lab4_test1](lab4_test1.png)
 
-* the test passed both for my implementation and group implementation
+* ![lab4_testMy1](lab4_testMy1.png)
+
+* ![lab4_testGroup1](lab4_testGroup1.png)
+
+* This issue should be able to be fixed with a few lines of codes that pairs the backticks in each line and ignore their index when parsing for URLs.
 
 ## Snippet 2
 
