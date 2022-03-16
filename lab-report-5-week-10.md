@@ -12,43 +12,31 @@
 
 ## Test One
 
-### Problem in the output
+* Expected Output:
 
-Here are part of the Diff.txt:
+    * ![lab5_t1code](lab5_t1code.png) ![lab5_t1expt](lab5_t1expt.png)
 
-```
-212c212
-< [url]
----
-> []
-```
-Upper part corresponds to result from provided implementation, and lower part corresponds to result from my implementation.
+    * This format does not meet the requirement of a link in markdown file, so the expected out put should be `[]`
 
-By looking at the bash result files, we found that line 212 corresponds to test file `194.md`.
+* Part of the Diff.txt:
 
-Here is the link to test markdown file `194.md`:
-[test-files/194.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/194.md)
+        212c212
+        < [url]
+        ---
+        > []
 
-The content of the file is:
- ```
- [Foo*bar\]]:my_(url) 'title (with parens)'
+    * Upper part corresponds to result from provided implementation; lower part corresponds to result from my implementation. Therefore, the provided implementation is incorrect.
+    
+* Problem in the Code
 
- [Foo*bar\]]
- ```
+    * The provided implementation did not include test to see if close bracket and open parenthesis are right next to each other when parsing.
 
-This format does not meet the requirement of a link in markdown file, so the expected out put should be `[]`, instead of `[url]`. The provided implementation is incorrect.
-
-### Problem in the code
-
-The code of provided implementation failed to exclude the case where close bracket and open parenthesis are not next to each other, which should not be regarded as a link. 
-
-The following determining code is necessary:
-```
-if (nextCloseBracket != openParen - 1) {
-        currentIndex = closeParen + 1;
-        continue;
-    }
-```
+        ```
+        if (nextCloseBracket != openParen - 1) {
+                currentIndex = closeParen + 1;
+                continue;
+            }
+        ```
 
 ## Test Two
 
