@@ -61,7 +61,7 @@
 
  * Problem in the code
 
-    * The code of provided implementation cannot correctly perform the close parenthesis search when there are more open parenthesis than close parenthesis, as shown in the following code from provided implementation:
+    * The code of provided implementation cannot correctly find the close parenthesis for the link when there are more open parenthesis than close parenthesis, as shown in the following code from provided implementation:
         ```
         if(openParenCount == 0) {
                 return closeParen - 1;
