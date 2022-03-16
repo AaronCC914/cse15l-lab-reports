@@ -12,7 +12,7 @@
 
 ## Test One
 
-* Expected Output:
+* [Expected Output](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/194.md):
 
     * ![lab5_t1code](lab5_t1code.png) ![lab5_t1expt](lab5_t1expt.png)
 
@@ -40,42 +40,36 @@
 
 ## Test Two
 
-### Problem in the output
+* [Expected Output](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/497.md):
 
-Here are part of the Diff.txt:
+    * ![lab5_t2code](lab5_t2code.png) ![lab5_t2expt](lab5_t2expt.png)
 
-```
-884c886
-< []
----
-> [foo\(and\(bar\]
-```
+    * The expected output should be `[foo\(and\(bar\]', instead of `[]`.
 
-Upper part corresponds to result from provided implementation, and lower part corresponds to result from my implementation.
+* Problem in the output
 
-By looking at the bash result files, we found that line 212 corresponds to test file `497.md`.
+    * Part of the Diff.txt:
 
-Here is the link to test markdown file `497.md`:
-[test-files/497.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/497.md)
+        ```
+        884c886
+        < []
+        ---
+        > [foo\(and\(bar\]
+        ```
 
-The content of the file is:
-```
-[link](foo\(and\(bar\))
-```
+    * Upper part corresponds to result from provided implementation; lower part corresponds to result from my implementation. Therefore, the provided implementation is incorrect.
 
- This format meets the requirement of a link in markdown file, so the expected output should be `[foo\(and\(bar\]', instead of `[]`. The provided implementation is incorrect.
+ * Problem in the code
 
- ### Problem in the code
-
- The code of provided implementation cannot correctly perform the close parenthesis search when there are more open parenthesis than close parenthesis, as shown in the following code from provided implementation:
- ```
- if(openParenCount == 0) {
-          return closeParen - 1;
-        }
-        else {
-          return -1;
-        }
-```
+    * The code of provided implementation cannot correctly perform the close parenthesis search when there are more open parenthesis than close parenthesis, as shown in the following code from provided implementation:
+        ```
+        if(openParenCount == 0) {
+                return closeParen - 1;
+                }
+                else {
+                return -1;
+                }
+        ```
 
 *Source: [ucsd CSE 15L wi22](https://ucsd-cse15l-w22.github.io/week/week10/#lab-report-5)*
 
